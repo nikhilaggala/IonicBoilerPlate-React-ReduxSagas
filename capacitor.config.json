@@ -1,0 +1,8 @@
+{
+  "appId": "com.JNHFHM.dev",
+  "appName": "JNHFHM",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "build",
+  "cordova": {}
+}

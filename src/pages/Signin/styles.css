@@ -1,0 +1,25 @@
+/* Write any custom styles */
+
+.bg-class{
+  --background: linear-gradient(197deg, rgba(100,100,100,1) 0%, rgba(63,63,63,1) 13.5%, rgba(29,29,29,1) 33.33%, rgba(0,0,0,1) 100%) !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoContainer {
+  height: 80px;
+  width: 100%;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.logo {
+  flex-direction: row;
+}
+
+.iconClass {
+  transform: rotateX(180deg);
+}

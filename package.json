@@ -1,0 +1,70 @@
+{
+  "name": "JNHFHM",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "^1.4.0",
+    "@capacitor/core": "1.4.0",
+    "@capacitor/ios": "^1.4.0",
+    "@ionic/react": "^4.11.0",
+    "@ionic/react-router": "^4.11.0",
+    "@types/ramda": "^0.26.39",
+    "@types/react-redux": "^7.1.5",
+    "@types/redux-logger": "^3.0.7",
+    "apisauce": "^1.0.5",
+    "ionicons": "^4.6.3",
+    "normalizr": "^3.4.1",
+    "ramda": "^0.26.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-redux": "^7.1.1",
+    "react-router": "^5.1.0",
+    "react-router-dom": "^5.1.0",
+    "recharts": "^2.0.0-beta.1",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.0.5",
+    "reduxsauce": "^1.1.0",
+    "reselect": "^4.0.0",
+    "typescript": "3.6.3"
+  },
+  "scripts": {
+    "generate": "ionic build",
+    "copy:ios": "ionic capacitor copy ios",
+    "add:ios": "ionic capacitor add ios",
+    "open:ios": "ionic capacitor open ios",
+    "serve:ios": "ionic capacitor run ios -l --address=0.0.0.0",
+    "start:ios": "rm -rf ./build && rm -rf ./ios && yarn generate && yarn copy:ios && yarn open:ios && yarn serve:ios",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "Web app for JNHFHM",
+  "devDependencies": {
+    "@capacitor/cli": "1.4.0",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.12",
+    "@types/react": "^16.9.5",
+    "@types/react-dom": "^16.9.1",
+    "@types/react-router": "^5.1.1",
+    "@types/react-router-dom": "^5.1.0",
+    "@types/recharts": "^1.8.4",
+    "react-scripts": "3.2.0"
+  }
+}
