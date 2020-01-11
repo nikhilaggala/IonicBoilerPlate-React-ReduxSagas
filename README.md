@@ -1,4 +1,4 @@
-# setup for JNHFHM web
+# setup for Ionic web
 
 * yarn global add ionic
 
